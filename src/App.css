@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.App{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(236, 230, 230);
+    background-color: rgb(111, 54, 8);
+    border: 0.5rem;
+    padding: 1em;
+    max-width: 300px;
+    max-height: 500px;
+    border-radius: 5%;
+    box-shadow: 0 0 2em 6px rgb(255, 117, 25);
+}
+li{
+    list-style: none;
+}
+.articlePoke{
+    padding: 1rem;
+    display: grid;
+    text-align: initial;
+}
+.imgPoke{
+    width: 200px;
+}
+.button{
+    height: 1.7em;
+    border: 0 ;
+    border-radius: 0 0.5em 0.5em 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(170, 130, 11);
+    box-shadow: -1em  0em 2.2em 0.3em rgb(248, 162, 13);
+    cursor: pointer;
+}
+
